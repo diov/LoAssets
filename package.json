@@ -1,0 +1,13 @@
+{
+  "name": "binser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-functions-core-tools": "4"
+  }
+}
