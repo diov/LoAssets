@@ -1,6 +1,6 @@
 # LoAssets
 
-A Python program that modify `UnityAsset` form the game Last origin.
+A Python program that modify `UnityAsset` from the game Last origin.
 
 ## Installation
 
@@ -22,7 +22,7 @@ Extract TextAsset from `UnityAsset` file.
 python3 loassets.py dump
 ```
 
-This will dump csv from `localization` and bin from `table_localization_*`.
+This will dump csv from `localization` and binary from `table_localization_*`.
 
 ### Serialize
 
@@ -32,7 +32,7 @@ Serialize the binary file extracted from `table_localization_*` to normal json f
 python3 loassets.py serialize --input=input/Table_Localization_ja.bin
 ```
 
-This will parse a C# `BinaryFormatter` format binary file through a azure function, which depends on the `azure_function` branch.
+This will parse a C# `BinaryFormatter` format binary file through a azure function, which depends on the [azure_function](https://github.com/diov/LoAssets/tree/azure_function) branch.
 
 ### Deserialize
 
